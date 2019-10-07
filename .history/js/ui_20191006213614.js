@@ -1,4 +1,3 @@
-
 const injectToHTML = (issues) => {
     let issueGrid = document.getElementById('issue-grid')
     issues.map((issue,index)=> {

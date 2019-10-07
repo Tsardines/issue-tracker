@@ -52,6 +52,6 @@
 }
 
 .footer-links_github:hover {
-    border: 2px solid black;
+    background-color: rgb(241, 220, 122);
     cursor: pointer;
 }

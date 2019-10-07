@@ -1,4 +1,3 @@
-
 const injectToHTML = (issues) => {
     let issueGrid = document.getElementById('issue-grid')
     issues.map((issue,index)=> {
@@ -9,7 +8,7 @@ const injectToHTML = (issues) => {
                         <a href="${issue.html_url}">
                         ${issue.title}: </a>
                       </h4>
-                    <p><b>Issue Repo:</b>
+                    <p><b>Issue Repoxxx:</b>
                         <a href="${issue.repository_url}">Link</a>
                             Issue author:<a href="${issue.user.html_url}">${issue.user.login}</a>
                             Date:<a href="#">${issue.created_at}</a>

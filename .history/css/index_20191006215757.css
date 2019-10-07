@@ -46,12 +46,10 @@
 .footer-links_github {
     background-color: white;
     border-radius: 0.75rem;
-    float: right;
     margin-top: 0.5rem;
     width: 3rem;
 }
 
 .footer-links_github:hover {
-    border: 2px solid black;
-    cursor: pointer;
+    background-color: aqua;
 }
